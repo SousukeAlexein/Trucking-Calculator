@@ -19,6 +19,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Database\ISQLiteDB.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Item.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\HomeMenuItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\IDataStore.cs" />
